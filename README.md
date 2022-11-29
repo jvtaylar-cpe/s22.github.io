@@ -2,47 +2,75 @@
 This is a simple demo website
 
 
-Creating Heading
+# Markdown Cheat Sheet
+
+Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
+
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
+
+## Basic Syntax
+
+These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+
+### Heading
 
 # H1
 ## H2
 ### H3
 
+### Bold
+
 **bold text**
+
+### Italic
+
 *italicized text*
+
+### Blockquote
+
 > blockquote
 
-Ordered list
+### Ordered List
 
 1. First item
 2. Second item
 3. Third item
 
-Unordered list
+### Unordered List
 
 - First item
 - Second item
 - Third item
 
-Code
+### Code
+
 `code`
 
-Horizontal rule
+### Horizontal Rule
+
 ---
 
-Link
-[title](https://www.example.com)
+### Link
 
-Image
-![alt text](image.jpg)
+[Markdown Guide](https://www.markdownguide.org)
 
-Table
+### Image
+
+![alt text](https://www.markdownguide.org/assets/images/tux.png)
+
+## Extended Syntax
+
+These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+
+### Table
+
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
 
-Fence code block
+### Fenced Code Block
+
 ```
 {
   "firstName": "John",
@@ -51,37 +79,45 @@ Fence code block
 }
 ```
 
-Footnote
+### Footnote
 
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
 
-Heading ID
+### Heading ID
+
 ### My Great Heading {#custom-id}
 
-Definition list
+### Definition List
 
 term
 : definition
 
-Strike through
+### Strikethrough
+
 ~~The world is flat.~~
 
-Task list
+### Task List
+
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 
-Emoji
+### Emoji
+
 That is so funny! :joy:
 
-Higlight
+(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
+
+### Highlight
+
 I need to highlight these ==very important words==.
 
-Subscript
+### Subscript
+
 H~2~O
 
-Superscript
-X^2^
+### Superscript
 
+X^2^
